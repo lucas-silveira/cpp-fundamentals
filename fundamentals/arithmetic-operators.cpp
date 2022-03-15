@@ -9,7 +9,7 @@ int main()
        << 2 * 2 << endl      // 4
        << 2 / 2 << endl      // 1
        << 10 % 2 << endl     // 0
-       << 2 + 2 + 2 << endl; // 6 (this is a binary operator yet)
+       << 2 + 2 + 2 << endl; // 6 (this still is a binary operator)
 
   // Simple example
   int x;

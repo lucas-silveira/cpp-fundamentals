@@ -2,7 +2,7 @@
 #include <iostream>
 
 int main() {
-  // scope resolution operator
+  // :: scope resolution operator
   std::cout << "Hello C++";
   /*
     std is a namespace. For access some thing inside the namespace
