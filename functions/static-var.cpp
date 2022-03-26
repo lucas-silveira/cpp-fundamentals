@@ -3,7 +3,7 @@ using namespace std;
 
 int nextId() {
   /*
-    Ensure that the variable will only be initialized once.
+    It ensure the variable will only be initialized once.
     That is, the state will be shared between function calls.
   */
   static int id = 1;
