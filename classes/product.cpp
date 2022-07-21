@@ -24,5 +24,12 @@ int main()
   cout << p1.discount << endl;
   cout << p1.finalPrice() << endl;
 
+  Product p2{"Notebook", 1600.45, 0.15};
+
+  cout << p2.name << endl;
+  cout << p2.price << endl;
+  cout << p2.discount << endl;
+  cout << p2.finalPrice() << endl;
+
   return 0;
 }

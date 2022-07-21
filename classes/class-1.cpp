@@ -25,5 +25,10 @@ int main()
 
   cout << d1.toString() << endl;
 
+  // Direct List Initialization
+  Date d2{3, 2, 2020};
+
+  cout << d2.toString() << endl;
+
   return 0;
 }
