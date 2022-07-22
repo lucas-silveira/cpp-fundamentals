@@ -5,9 +5,9 @@ using namespace std;
 class Date {
   // The class members are private by default
   public:
-    int day;
-    int month;
-    int year;
+    int day = 1; // default values
+    int month = 1;
+    int year = 1970;
 
     string toString() {
       stringstream ss;
