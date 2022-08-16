@@ -6,9 +6,9 @@ int main()
   /*
     What is a pointer?
     -------------------------
-    Pointer is a variable whose value is
-    the address of another variable, i.e,
-    direct address of the memory location
+    Pointer is a data-structure that holds
+    a variable address, i.e, direct address
+    of the memory location.
   */
 
   int value = 1234;

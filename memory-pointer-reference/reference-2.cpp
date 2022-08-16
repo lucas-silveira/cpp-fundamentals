@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
   int x = 7;
-  int &xRef = x; // set variable memory reference to "x" memory reference
+  int &xRef = x; // set variable's memory reference to the "x" memory reference
 
   cout << x << "\t" << &x << endl;
   cout << xRef << "\t" << &xRef << endl;
