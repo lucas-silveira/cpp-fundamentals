@@ -1,19 +1,40 @@
 #include <iostream>
 using namespace std;
 
-void insertionSort(int arr[], int n) {
-  for (int i = 0; i<n; i++) {
-    int value = arr[i];
-    int j = i-1;
+void insertionSort(int arr[], int n)
+{
+  int i, key, j;
+  for (i = 0; i<n; i++)
+  {
+    key = arr[i];
+    j = i-1;
 
-    while (j>=0 && arr[j]>value) {
+    /*
+      Move elements of arr[0..i-1],  
+      that are greater than key, to one 
+      position ahead of their 
+      current position
+    */
+    while (j>=0 && arr[j]>key)
+    {
       arr[j+1] = arr[j];
       j--;
     }
 
-    arr[j+1] = value;
+    arr[j+1] = key;
   }
 }
+
+void printArray(int arr[], int n) 
+{
+  int i;
+  string result;
+  for (i = 0; i<n; i++)
+  {
+    result.append(to_string(arr[i])).append(", ");
+  }
+  cout << result << endl;
+} 
 
 int main()
 {
@@ -21,13 +42,7 @@ int main()
   int n = sizeof(arr) / sizeof(int); // the array size in bytes divideded for the type size
   
   insertionSort(arr, n);
-
-  string result = "";
-  for (int i : arr) {
-    result.append(to_string(i)).append(", ");
-  }
-
-  cout << result << endl;
+  printArray(arr, n);
 
   return 0;
 }
