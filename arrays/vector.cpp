@@ -34,7 +34,7 @@ int main()
   }
 
   /*
-    In order to get a read-only pointer, we can to add
+    In order to get a read-only pointer, we can add
     a "c" prefix to methods.
   */
 
