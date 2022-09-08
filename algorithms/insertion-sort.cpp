@@ -6,8 +6,8 @@ void insertionSort(int arr[], int n)
   int i, key, j;
   for (i = 0; i<n; i++)
   {
-    key = arr[i];
-    j = i-1;
+    key = arr[i]; // current value
+    j = i-1; // previous value
 
     /*
       Move elements of arr[0..i-1],  
