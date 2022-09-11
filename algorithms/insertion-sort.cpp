@@ -1,48 +1,36 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
-void insertionSort(int arr[], int n)
-{
-  int i, key, j;
-  for (i = 0; i<n; i++)
-  {
-    key = arr[i]; // current value
-    j = i-1; // previous value
+/*
+  This solution has a time complexity O(n^2) and a space complexity O(1)
+*/
 
-    /*
-      Move elements of arr[0..i-1],  
-      that are greater than key, to one 
-      position ahead of their 
-      current position
-    */
-    while (j>=0 && arr[j]>key)
-    {
-      arr[j+1] = arr[j];
+void insertionSort(vector<int> &array)
+{
+  int key, j;
+  for (int i = 0; i < array.size(); i++) {
+    key = array[i];
+    j = i-1;
+
+    while (j >= 0 && array[j] > key) {
+      array[j+1] = array[j];
       j--;
     }
 
-    arr[j+1] = key;
+    array[j+1] = key;
   }
 }
 
-void printArray(int arr[], int n) 
-{
-  int i;
-  string result;
-  for (i = 0; i<n; i++)
-  {
-    result.append(to_string(arr[i])).append(", ");
-  }
-  cout << result << endl;
-} 
-
 int main()
 {
-  int arr[] = {5, 2, 4, 6, 1, 3};
-  int n = sizeof(arr) / sizeof(int); // the array size in bytes divideded for the type size
+  vector<int> array = {5, 2, 4, 6, 1, 3};
   
-  insertionSort(arr, n);
-  printArray(arr, n);
+  insertionSort(array);
+
+  for (int i : array) {
+    cout << i << " ";
+  }
 
   return 0;
 }
