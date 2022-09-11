@@ -39,10 +39,8 @@ int main()
   vector<int> res = findThreeLargestNumbers(array);
 
   for (int i : res) {
-    cout << i << ", ";
+    cout << i << " ";
   }
-
-  cout << endl;
 
   return 0;
 }

@@ -57,10 +57,8 @@ int main()
   vector<int> res = sortedSquaredArray(arr);
 
   for (int i : res) {
-    cout << i << ", ";
+    cout << i << " ";
   }
-
-  cout << endl;
 
   return 0;
 }

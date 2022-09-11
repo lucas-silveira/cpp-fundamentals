@@ -55,10 +55,8 @@ int main()
   vector<int> res = twoNumberSum(arr, target);
 
   for (int i : res) {
-    cout << i << ", ";
+    cout << i << " ";
   }
-
-  cout << endl;
 
   return 0;
 }
