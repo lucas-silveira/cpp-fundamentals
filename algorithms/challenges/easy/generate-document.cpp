@@ -27,7 +27,7 @@
 */
 
 #include <iostream>
-#include <map>
+#include <unordered_map>
 using namespace std;
 
 /*
@@ -36,7 +36,7 @@ using namespace std;
 
 bool generateDocument(string characters, string document) {
   if (document == "") return true;
-  map<char, int> charTable;
+  unordered_map<char, int> charTable;
 
   for (char ch : characters) {
     charTable[ch] += 1;
