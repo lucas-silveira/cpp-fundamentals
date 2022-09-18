@@ -50,7 +50,6 @@ vector<vector<int>> threeNumberSum(vector<int> array, int targetSum) {
   return triplets;
 }
 
-
 int main()
 {
   vector<int> array = {12, 3, 1, 2, -6, 5, -8, 6};
