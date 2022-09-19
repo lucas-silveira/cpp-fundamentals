@@ -54,7 +54,6 @@ bool classPhotos(vector<int> redSH, vector<int> blueSH) {
   return true;
 }
 
-
 int main()
 {
   vector<int> red = {5, 8, 1, 3, 4};

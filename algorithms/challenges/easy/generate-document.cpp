@@ -50,7 +50,6 @@ bool generateDocument(string characters, string document) {
   return true;
 }
 
-
 int main()
 {
   string characters = "Bste!hetsi ogEAxpelrt x ";

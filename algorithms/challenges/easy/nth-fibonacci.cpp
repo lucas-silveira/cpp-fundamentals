@@ -44,10 +44,8 @@ int getNthFib(int n) {
   return curr;
 }
 
-
 int main()
 {
-
   cout << getNthFib(6) << endl;
   return 0;
 }

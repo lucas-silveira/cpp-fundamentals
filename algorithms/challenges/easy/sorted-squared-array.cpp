@@ -53,7 +53,6 @@ vector<int> sortedSquaredArray(vector<int> arr)
 int main()
 {
   vector<int> arr = {1, 2, 3, 5, 6, 8, 9};
-
   vector<int> res = sortedSquaredArray(arr);
 
   for (int i : res) {

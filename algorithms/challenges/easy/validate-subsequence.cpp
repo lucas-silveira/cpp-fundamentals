@@ -35,7 +35,6 @@ bool isValidSubsequence(vector<int> arr, vector<int> seq) {
   return step == seq.size();
 }
 
-
 int main()
 {
   vector<int> arr = {5, 1, 22, 25, 6, -1, 8, 10};

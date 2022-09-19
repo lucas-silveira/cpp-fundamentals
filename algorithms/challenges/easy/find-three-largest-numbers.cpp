@@ -19,7 +19,7 @@
 using namespace std;
 
 /*
-  This solution has a time complexity O(nlogn) and a space complexity O(1)
+  This solution has a time complexity O(nlgn) and a space complexity O(1)
 */
 
 vector<int> findThreeLargestNumbers(vector<int> array) {

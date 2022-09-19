@@ -44,7 +44,6 @@ LinkedList *removeDuplicatesFromLinkedList(LinkedList *linkedList) {
   return linkedList;
 }
 
-
 int main()
 {
   return 0;

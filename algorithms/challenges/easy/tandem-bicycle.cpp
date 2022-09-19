@@ -56,7 +56,6 @@ int tandemBicycle(vector<int> redSS, vector<int> blueSS, bool fastest) {
   return sum;
 }
 
-
 int main()
 {
   vector<int> red = {5, 5, 3, 9, 2};

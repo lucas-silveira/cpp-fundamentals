@@ -63,7 +63,6 @@ int nodeDepths(BinaryTree *root) {
   return sum;
 }
 
-
 int main()
 {
   return 0;

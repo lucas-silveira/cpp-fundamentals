@@ -35,7 +35,6 @@ string caesarCypherEncryptor(string str, int key) {
   return newStr;
 }
 
-
 int main()
 {
   string str = "xyz";
