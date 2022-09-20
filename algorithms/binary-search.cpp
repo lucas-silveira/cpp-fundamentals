@@ -1,5 +1,6 @@
 /*
   Reference: https://www.programiz.com/dsa/binary-search
+  
   Binary Search is a searching algorithm for finding an element's position in a
   sorted array.
   

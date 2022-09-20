@@ -1,5 +1,6 @@
 /*
   Reference: https://www.programiz.com/dsa/insertion-sort
+  
   Insertion sort works similarly as we sort cards in our hand in a card game.
   
   We assume that the first card is already sorted then, we select an unsorted
