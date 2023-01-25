@@ -1,3 +1,18 @@
+/*
+  Group equal chars
+
+  Write a function that takes in an array of strings and returns the similar
+  strings grouped.
+
+  Sample Input
+  array = ["142", "421", "9ab", "241", "ba9", "4211"]
+
+  Sample Output
+  "142", "421", "241"
+  "9ab", "ba9"
+  "4211"
+*/
+
 #include <iostream>
 #include <map>
 #include <vector>
